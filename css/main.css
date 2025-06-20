@@ -42,7 +42,20 @@
   top: 220px;
   left: 325px;
   line-height: 0.8;
+  animation: fadeSlideRight 1.5s ease-out 0.8s forwards;
 }
+
+@keyframes fadeSlideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 
 @media(max-width:1600px){
   .main-swiper{
