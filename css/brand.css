@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+:root{
+  --main-yellow: #FFD900;
+  --main-pink: #EE9DC2;
+  --nav-color: #E868A3;
+  --main-brown: #AB8A50;
+}
+
+footer{
+  display: none;
+}
+
+/*bg*/
+
+header .brand-main-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/bg/brand-main-bg.png) no-repeat center top 0;
+  width: 100%;
+  height: 980px;
+  z-index: -10;
+}
+
+header .brand-tablet-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/bg/brand-tablet-bg.png) no-repeat center top 0;
+  width: 100%;
+  height: 1010px;
+  z-index: -10;
+  display: none;
+}
+
+header .brand-mobile-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/bg/brand-mobile-bg.png) no-repeat center top 0;
+  width: 100%;
+  height: 900px;
+  z-index: -10;
+  display: none;
+}
+
+@media(max-width:1024px){
+
+
+  .brand-main-bg{
+    display: none;
+  }
+}
+
+@media(max-width:765px){
+
+  .brand-main-bg{
+    display: none;
+  }
+
+}
+
+/*brand-intro*/
+.brand-intro{
+  padding-top: 120px;
+  text-align: center;
+  color: var(--nav-color);
+  position: relative;
+}
+
+.brand-intro .logo{
+  width: 200px;
+  margin: 0 auto 65px auto;
+
+}
+
+.brand-intro .logo img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.brand-intro  h1{
+  font-size: 34px;
+  font-family: 'Paperlogy-7Bold';
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 65px
+}
+
+.brand-intro p{
+  font-size: 25px;
+  line-height: 40px;
+}
+
+ .intro-bg-01{
+  width: 430px;
+  height: 430px;
+  background: rgba(255,255,255,0.77) url(../img/donut/donut_01.png) no-repeat center;
+  background-size: 400px 400px;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  right: 250px;
+  z-index: -1;
+  box-shadow: -7.81px 2.34px 21.1px 3.13px rgba(0,0,0,0.08);
+}
+
+ .intro-bg-02{
+  position: relative;
+  width: 280px;
+  height: 280px;
+  background: rgba(255,255,255,0.77) url(../img/beverage/beverage_02.png) no-repeat center;
+  background-size: 270px 270px;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 340px;
+  z-index: -1;
+  box-shadow: -7.81px 2.34px 21.1px 3.13px rgba(0,0,0,0.08);
+}
+
+ .intro-bg-02::before{
+  content: "";
+  display: block;
+  width: 97px;
+  height: 97px;
+  background-color: #FFDA2B;
+  opacity: 0.77;
+  position: absolute;
+  bottom: 20px;
+  left: -40px;
+  border-radius: 50%;
+ }
+
+  .intro-bg-03{
+  width: 184px;
+  height: 184px;
+  background: rgba(255,255,255,0.77) url(../img/donut/donut_03.png) no-repeat center;
+  background-size: 180px 180px;
+  border-radius: 50%;
+  position: absolute;
+  top: 470px;
+  left: 520px;
+  z-index: -1;
+  box-shadow: -7.81px 2.34px 21.1px 3.13px rgba(0,0,0,0.08);
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.txt-ani{
+  position: relative;
+  height: 460px;
+  width: 100%;
+  overflow: hidden;
+  margin: 450px 0;
+}
+
+.txt-ani p{
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200px;
+  color: transparent;
+  -webkit-text-stroke: 9.22px #FFF4B6;
+  letter-spacing: 10px;
+  animation: scrollRight 10s linear infinite;
+}
+
+.txt-ani .donut-img{
+  position: absolute;
+  width: 451px;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px;
+}
+
+.txt-ani .donut-img img{
+  width: 100%;
+}
+
+/*product-intro*/
+.product-intro li{
+  display: flex;
+}

@@ -154,6 +154,17 @@ $(document).ready(function(){
      $(".product-detail-wrap").hide();
      $(".product-detail").hide();
   });
+
+  //top버튼
+  
+    const topBtn = document.querySelector('.top');
+
+    topBtn.addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+      });
+    });
   
 
 
@@ -289,7 +300,7 @@ const instar_swiper = new Swiper('.instar-swiper', {
     delay: 0, 
     disableOnInteraction: false,
   },
-  speed: 3000, 
+  speed: 5000, 
 
   slidesPerView: 2.4, 
   spaceBetween: 34,
