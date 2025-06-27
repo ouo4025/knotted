@@ -33,6 +33,7 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
   <script defer src="js/main.js"></script>
+  <script defer src="js/menu.js"></script>
 
   <!--icon-->
   <script src="https://kit.fontawesome.com/64f25849a2.js" crossorigin="anonymous"></script>
@@ -43,9 +44,9 @@
   <div id="wrap">
     <header>
 
-      <div class="main-bg"></div>
-      <div class="tablet-bg"></div>
-      <div class="mobile-bg"></div>
+      <div class="menu-main-bg"></div>
+      <div class="menu-tablet-bg"></div>
+      <div class="menu-mobile-bg"></div>
       
       <nav>
 
@@ -60,9 +61,8 @@
             </ul>
           </li>
 
-          <li><a href="menu_all.html">Menu</a>
+          <li><a href="menu_donut.html">Menu</a>
             <ul class="depth2">
-              <li><a href="menu_all.html">ALL</a></li>
               <li><a href="menu_donut.html">DONUT</a></li>
               <li><a href="menu_bakery.html">BAKERY</a></li>
               <li><a href="menu_cake.html">CAKE</a></li>
@@ -145,6 +145,74 @@
       </div><!--.mobile-menu-->
     </header>
 
+    <main>
+        <h1 class="menu-title">menu</h1>
+        
+        <ul class="menu-category">
+          <li><a href="menu_donut.html">donut</a></li>
+          <li><a href="menu_beverage.html">beverage</a></li>
+          <li><a href="menu_bakery.html">bakery</a></li>
+          <li class="active"><a href="menu_cake.html">cake</a></li>
+        </ul><!--.menu-category-->
+
+      <div class="menu-donut">
+  
+        <ul class="search">
+          <li>cake</li>
+          <li><input type="text"> <img src="img/search.png" alt="검색아이콘"></li>
+        </ul><!--.search-->
+
+        <ul class="donut-list">
+          <li>
+            <img src="img/cake/cake_01.png" alt="옐로우 스마일">
+              <p class="name">옐로우 스마일</p>
+              <p class="detail">우유 생크림이 듬뿍 들어있는 부드러운 시트에 노란 노티드 스마일을 담아낸 케이크</p>
+              <div class="more"><a href="#"></a></div>
+          </li>
+
+          <li>
+            <img src="img/cake/cake_02.png" alt="크림버니의 핑크 가든">
+              <p class="name">크림버니의 핑크 가든</p>
+              <p class="detail">헤이즐넛 카라멜 크림과 달콤한 초코 크림 사이 크런치볼이 쏙쏙! 진하고 깊은 초콜릿 케이크</p>
+              <div class="more"><a href="#"></a></div>
+          </li>
+
+          <li>
+            <img src="img/cake/cake_03.png" alt="밀크 데이지 케이크">
+              <p class="name">밀크 데이지 케이크</p>
+              <p class="detail">부드럽고 고소한 우유 생크림과 폭신한 화이트 시트가 어우러진 밀크 케이크</p>
+              <div class="more"><a href="#"></a></div>
+          </li>
+
+          <li>
+            <img src="img/cake/cake_04.png" alt="땡큐 블루베리 머치">
+              <p class="name">땡큐 블루베리 머치</p>
+              <p class="detail">블루베리 가나슈와 상큼한 라즈베리 크림이 어우러진 케이크</p>
+              <div class="more"><a href="#"></a></div>
+          </li>
+
+          <li>
+            <img src="img/cake/cake_06.png" alt="마스카포네 치즈 케이크">
+              <p class="name">마스카포네 치즈 케이크</p>
+              <p class="detail">부드러운 치즈 케이크에 진한 마스카포네 크림이 듬뿍 올라간 케이크</p>
+              <div class="more"><a href="#"></a></div>
+          </li>
+
+          <li>
+            <img src="img/cake/cake_05.png" alt="마스카포네 티라미수">
+              <p class="name">마스카포네 티라미수</p>
+              <p class="detail">향긋한 커피 시럽을 머금은 초코 시트와 마스카포네 치즈 크림이 부드럽게 어우러지는 티라미수</p>
+              <div class="more"><a href="#"></a></div>
+          </li>
+
+          
+
+         
+      </ul>
+
+      </div><!--.menu-donut-->
+    </main>
+
 
 
     <footer>
@@ -183,431 +251,6 @@
 
       </div><!--.f-left-->
     </footer>
-
-        <div class="product-detail-wrap"></div><!--.product-detail-wrap-->
-
-        <div class="product-detail kaya">
-            <h2>카야버터도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_02.png" alt="카야버터도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">버터의 깊은 풍미와 카야잼을 더해 고소함과 달달함을 동시에 느낄 수 있는 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->        
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail berry">
-            <h2>딸기우유 생크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_03.png" alt="딸기우유 생크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">노티드만의 부드럽고 달콤한 딸기 우유 생크림과 바닐라 커스타드 & 딸기잼이 어우러진 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail vanilla">
-            <h2>클래식 바닐라 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_01.png" alt="클래식 바닐라 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">바닐라 빈이 가득 들어가 더욱 풍부한 바닐라의 맛을 느낄 수 있는 클래식 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail zero">
-            <h2>저당 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_04.png" alt="저당 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">대체당 슈가 파우더와 부드러운 저당 크림을 가득 채운 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail peanut">
-            <h2>우드 땅콩 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_05.png" alt="우드 땅콩 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">진한 땅콩 크런치 크림과 고소한 땅콩 생크림이 어우러진 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail green">
-            <h2>저당 말차 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_06.png" alt="저당 말차 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">대체당 슈가 파우더와 달콤 쌉싸름한 저당 말차 크림으로 맛을 낸 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail yogurt">
-            <h2>저당 요거 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_19.png" alt="저당 요거 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">대체당 슈가 파우더와 새콤달콤 저당 요거트 맛 크림으로 가득 채운 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-         <div class="product-detail choco">
-            <h2>저당 초코 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_16.png" alt="저당 초코 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">대체당 슈가 파우더와 진한 저당 초코 크림으로 맛을 낸 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <!--best menu-->
-
-        <div class="product-detail milk">
-            <h2>우유 생크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_10.png" alt="우유 생크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">노티드 시그니처 크림과 바닐라크림이 어우러진 노티드 대표 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail earlgray">
-            <h2>얼그레이 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_07.png" alt="얼그레이 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">노티드만의 레시피로 만들어진 얼그레이 크림으로 짙은 베르가못향을 느낄 수 있는 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail choco-pudding">
-            <h2>초코푸딩 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_20.png" alt="초코푸딩 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">부드러운 초코크림에 초코칩 토핑으로 더욱 깊은 초코맛을 즐길 수 있는 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail mint">
-            <h2>민트 초코 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_14.png" alt="민트 초코 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">시원한 민트 크림과 진한 초코 크림이 어우러진 달콤 상쾌 민초 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail zero-choco">
-            <h2>저당 초코 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_16.png" alt="저당 초코 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">대체당 슈가 파우더와 진한 저당 초코 크림으로 맛을 낸 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail zero-green">
-            <h2>저당 말차 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_06.png" alt="저당 말차 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">대체당 슈가 파우더와 달콤 쌉싸름한 저당 말차 크림으로 맛을 낸 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail zero-yogurt">
-            <h2>저당 요거 크림 도넛</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="product-img">
-            <img src="img/donut/donut_19.png" alt="저당 요거 크림 도넛">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">대체당 슈가 파우더와 새콤달콤 저당 요거트 맛 크림으로 가득 채운 도넛</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>밀, 우유, 대두, 계란 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>빵류1 [밀가루(밀:미국,캐나다산),영양강화밀가루(프랑스산)],가공유크림(독일산), 빵류2 [전란액(계란:국내산),밀가루(밀:미국산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <!--beverage-->
-        <div class="product-detail greenlatte">
-            <h2>시그니처 제주 말차 라떼</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="beverage-img">
-            <img src="img/beverage/signature_03.png" alt="시그니처 제주 말차 라떼">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">풍미 가득 부드러운 마스카포네 크림을 듬뿍 얹은 깊고 진한 말차 라떼</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>우유 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>우유(원유:국산), 가공유크림(독일산), 연유[원유(국산),유당(미국산)], 고형차[유기농말차(국내산:제주산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail creamlatte">
-            <h2>시그니처 크림라떼</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="beverage-img">
-            <img src="img/beverage/signature_04.png" alt="시그니처 크림라떼">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">풍미 가득 부드러운 마스카포네 크림이 어우러진 라떼</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>우유 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>우유(원유:국산), 가공유크림(독일산), 연유[원유(국산),유당(미국산)], 고형차[유기농말차(국내산:제주산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail watermelone">
-            <h2>통통 노티드 수박화채</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="beverage-img">
-            <img src="img/beverage/signature_02.png" alt="통통 노티드 수박화채">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">제주산 수박 주스에 달콤한 야쿠르트와 후루츠 칵테일, 쫀득한 코코 젤리를 더한 시원한 수박 화채</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>우유 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>우유(원유:국산), 가공유크림(독일산), 연유[원유(국산),유당(미국산)], 고형차[유기농말차(국내산:제주산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail milkice">
-            <h2>시그니처 단팥 우유 빙수</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="beverage-img">
-            <img src="img/beverage/signature_01.png" alt="시그니처 단팥 우유 빙수">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">밀크 쉐이크에 달콤한 통단팥과 고소한 볶음 콩가루를 듬뿍 올린 컵빙수</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>우유 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>우유(원유:국산), 가공유크림(독일산), 연유[원유(국산),유당(미국산)], 고형차[유기농말차(국내산:제주산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
-
-        <div class="product-detail milkcloud">
-            <h2>노티드 밀크 클라우드</h2>
-            <div class="close"><img src="img/close-b.png" alt="닫기버튼"></div>
-          <div class="beverage-img">
-            <img src="img/beverage/signature_05.png" alt="노티드 밀크 클라우드">
-          </div><!--.product-img-->
-
-          <div class="product-txt">
-            <p class="intro">달콤한 브륄레 크림과 밀크쉐이크가 조화로운 노티드만의 시그니처 크림 프라페</p>
-
-            <div class="allergy">
-              <h3>알레르기 유발 요인</h3>
-              <p>우유 함유</p>
-            </div><!--allergy-->
-            <div class="origin">
-              <h3>원산지 정보</h3>
-              <p>우유(원유:국산), 가공유크림(독일산), 연유[원유(국산),유당(미국산)], 고형차[유기농말차(국내산:제주산)]</p>
-            </div><!--.origin-->
-          </div><!--.product-txt-->
-        </div><!--.product-detail-->
 
         <div class="top"></div><!--.top-->
 
