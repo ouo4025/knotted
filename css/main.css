@@ -19,16 +19,7 @@ header .main-bg{
   z-index: -10;
 }
 
-header .tablet-bg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url(../img/bg/tablet-bg.png) no-repeat center top 0;
-  width: 100%;
-  height: 1010px;
-  z-index: -10;
-  display: none;
-}
+
 
 header .mobile-bg{
   position: absolute;
@@ -44,17 +35,37 @@ header .mobile-bg{
 @media(max-width:1024px){
 
 
-  .main-bg{
+  header .main-bg{
     display: none;
   }
+
+  header .tablet-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/bg/tablet-bg.png) no-repeat center top 0;
+  width: 100%;
+  height: 1010px;
+  z-index: -10;
+}
+
 }
 
 @media(max-width:765px){
 
-  .main-bg{
-    display: none;
-  }
+  header .tablet-bg{
+  display: none;
+}
 
+  header .mobile-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/bg/mobile-bg.png) no-repeat center top 0;
+    width: 100%;
+    height: 1000px;
+    z-index: -10;
+  }
 }
 
 

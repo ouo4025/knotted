@@ -167,6 +167,15 @@ $(document).ready(function(){
     });
   
 
+    //스크롤고정
+    $(window).on('scroll', function () {
+  if ($(this).scrollTop() > 50) {
+    $('header nav').addClass('fixed-nav');
+  } else {
+    $('header nav').removeClass('fixed-nav');
+  }
+});
+
 
 
 

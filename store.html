@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--파비콘-->
+  <link rel="icon" href="img/knotted-favicon.ico">
+
+  <!--font-->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+
+  <!--swiper--> 
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+  <!--AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/reservation.css">
+
+  <!--script-->
+  <!--1.제이쿼리 2.자바스크립트 3.aos 4.외부js파일-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script defer src="js/main.js"></script>
+
+  <!--icon-->
+  <script src="https://kit.fontawesome.com/64f25849a2.js" crossorigin="anonymous"></script>
+
+  <title>pickup</title>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+
+      <div class="reser-main-bg"></div>
+      <div class="reser-tablet-bg"></div>
+      <div class="reser-mobile-bg"></div>
+      
+      <nav>
+
+        <div class="ham"><img src="img/ham.png" alt="모바일메뉴버튼"></div>
+
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="knotted로고이미지"></a></div>
+
+        <ul class="gnb">
+          <li><a href="brand.html">Brand</a>
+            <ul class="depth2">
+              <li><a href="brand.html">STORY</a></li>
+            </ul>
+          </li>
+
+          <li><a href="menu_donut.html">Menu</a>
+            <ul class="depth2">
+              <li><a href="menu_donut.html">DONUT</a></li>
+              <li><a href="menu_bakery.html">BAKERY</a></li>
+              <li><a href="menu_cake.html">CAKE</a></li>
+              <li><a href="menu_beverage.html">BEVERAGE</a></li>
+            </ul>
+          </li>
+
+          <li><a href="event.html">Event</a>
+            <ul class="depth2">
+              <li><a href="event.html">EVENT</a></li>
+              <li><a href="notice.html">NOTICE</a></li>
+            </ul>
+          </li>
+
+          <li><a href="shop_all.html">Online Shop</a>
+            <ul class="depth2">
+              <li><a href="shop_all.html">ALL</a></li>
+              <li><a href="shop_food.html">FOOD</a></li>
+              <li><a href="shop_living.html">LIVING</a></li>
+            </ul>
+          </li>
+
+          <li><a href="pickup.html">Reservation</a>
+            <ul class="depth2">
+              <li><a href="pickup.html">PICK UP</a></li>
+              <li><a href="store.html">STORE</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="shortcut">
+          <div class="mypage"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+          <div class="cart"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></div>
+        </div><!--.shortcut-->
+      </nav>
+
+      <div class="mobile-menu">
+        <div class="close"><img src="img/close.png" alt="닫기버튼"></div>
+
+        <ul class="mb-gnb">
+          <li><a href="brand.html">Brand</a>
+            <ul class="mb-depth2">
+              <li><a href="brand.html">STORY</a></li>
+            </ul>
+          </li>
+
+           <li><a href="menu_donut.html">Menu</a>
+            <ul class="depth2">
+              <li><a href="menu_donut.html">DONUT</a></li>
+              <li><a href="menu_bakery.html">BAKERY</a></li>
+              <li><a href="menu_cake.html">CAKE</a></li>
+              <li><a href="menu_beverage.html">BEVERAGE</a></li>
+            </ul>
+          </li>
+
+          <li><a href="event.html">Event</a>
+            <ul class="mb-depth2">
+              <li><a href="event.html">EVENT</a></li>
+              <li><a href="notice.html">NOTICE</a></li>
+            </ul>
+          </li>
+
+          <li><a href="shop_all.html">Online Shop</a>
+            <ul class="mb-depth2">
+              <li><a href="shop_all.html">ALL</a></li>
+              <li><a href="shop_food.html">FOOD</a></li>
+              <li><a href="shop_living.html">LIVING</a></li>
+            </ul>
+          </li>
+
+         <li><a href="pickup.html">Reservation</a>
+            <ul class="mb-depth2">
+              <li><a href="pickup.html">PICK UP</a></li>
+              <li><a href="store.html">STORE</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div><!--.mobile-menu-->
+    </header>
+
+    <main>
+        <h1 class="menu-title">store</h1>
+        
+        <ul class="menu-category">
+          <li><a href="pickup.html">pick up</a></li>
+          <li class="active"><a href="store.html">store</a></li>
+  
+        </ul><!--.menu-category-->
+
+      <div class="menu-donut">
+
+        <ul class="search">
+          <li>store</li>
+          <li><input type="text"> <img src="img/search.png" alt="검색아이콘"></li>
+        </ul><!--.search-->
+
+        <ul class="store-list">
+          <li>
+            <img src="img/store/store_01.jpg" alt="노티드 스튜디오 청담">
+            <div class="store-txt">
+              <h2>노티드 스튜디오 청담</h2>
+              <p>서울 강남구 도산대로53길 15</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_02.jpg" alt="노티드월드(잠실롯데월드몰)">
+            <div class="store-txt">
+              <h2>노티드월드(잠실롯데월드몰)</h2>
+              <p>서울 송파구 올림픽로 300 롯데월드몰 5층</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_03.jpg" alt="노티드 가산 퍼블릭">
+            <div class="store-txt">
+              <h2>노티드 가산 퍼블릭</h2>
+              <p>서울 금천구 디지털로 178 A동 지상1층 117호</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_04.jpg" alt="노티드 강남 신세계">
+            <div class="store-txt">
+              <h2>노티드 강남 신세계</h2>
+              <p>서울 서초구 신반포로 176 지하1층</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_11.jpg" alt="노티드 강남역">
+            <div class="store-txt">
+              <h2>노티드 강남역</h2>
+              <p>서울 서초구 강남대로 429 3층</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_12.png" alt="노티드 구의역">
+            <div class="store-txt">
+              <h2>노티드 구의역</h2>
+              <p>서울시 광진구 아차산로 402 이스트플 지하 2층</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_05.jpg" alt="노티드 김포롯데몰">
+            <div class="store-txt">
+              <h2>노티드 김포롯데몰</h2>
+              <p>서울 강서구 하늘길 77 롯데몰 김포공항점 GF층</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_06.jpeg" alt="노티드 서울로에너지플러스">
+            <div class="store-txt">
+              <h2>노티드 서울로에너지플러스</h2>
+              <p>서울 중구 회현동 84-17 에너지플러스 3층</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_07.jpg" alt="노티드 신림">
+            <div class="store-txt">
+              <h2>노티드 신림</h2>
+              <p>서울 관악구 신림로 364 우장빌딩 1층</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_08.jpg" alt="노티드 안국">
+            <div class="store-txt">
+              <h2>노티드 안국</h2>
+              <p>서울 종로구 북촌로 6-3</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_09.jpg" alt="노티드 여의도 IFC몰">
+            <div class="store-txt">
+              <h2>노티드 여의도 IFC몰</h2>
+              <p>서울 영등포구 국제금융로 10 L2층 234호</p>
+            </div><!--.store-txt-->
+          </li>
+
+          <li>
+            <img src="img/store/store_10.png" alt="노티드 종각하이커">
+            <div class="store-txt">
+              <h2>노티드 종각하이커</h2>
+              <p>서울 중구 청계천로 40 5층</p>
+            </div><!--.store-txt-->
+          </li>
+
+          
+      </ul>
+      </div><!--.menu-donut-->
+    </main>
+
+
+
+    <footer>
+      <div class="f-left">
+        <div class="f-logo"><img src="img/logo.png" alt="하단로고이미지
+          "></div>
+          <div class="info">
+            <h3>compnay information</h3>
+            <p>주식회사 제이프에프지</p>
+            <p><span>주소:</span>서울특별시 강남구 도산대로 326</p>
+            <p><span>사업자등록번호:</span>248-81-00620</p>
+            <p><span>통신판매업신고번호:</span>2020-서울강남-02297</p>
+            <p><span>대표이사:</span>이준범</p>
+
+            </div><!--.info-->
+
+            <ul>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">Copyright &copy; 2023 knotted. All Rights Reserved.</a></li>
+            </ul>
+          
+      </div><!--.f-left-->
+
+      <div class="f-right">
+        <ul class="sns-icon">
+          <li><a href="https://www.instagram.com/cafeknotted_kr/?locale=ko&hl=af" target="_blank"><img src="img/instar-icon.png" alt="인스타아이콘"></a></li>
+          <li><a href="https://pf.kakao.com/_AUDFj"><img src="img/kakao-icon.png" target="_blank" alt="카카오톡아이콘"></a></li>
+        </ul><!--.sns-icon-->
+
+        <h3>HELP</h3>
+          <div class="info">
+            <p><span>고객센터:</span>1800-6067</p>
+            <p><span>운영시간:</span>평일9시~12시, 13시~17시(주말/공휴일 제외)</p>
+          </div>
+
+      </div><!--.f-left-->
+    </footer>
+
+        <div class="top"></div><!--.top-->
+
+  </div><!--#wrap-->
+  
+</body>
+</html>

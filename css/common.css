@@ -21,7 +21,22 @@ header {
 header nav{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fee98096;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 17px 30px;
+}
+
+main {
+  padding-top: 85px; /* nav 높이에 맞춰 조정 */
 }
 
 header .logo{
@@ -159,14 +174,6 @@ header .shortcut > div:hover{
 
 @media(max-width:1024px){
 
-  header .tablet-bg{
-  display: block;
-}
-
-  .main-bg{
-    display: none;
-  }
-
   header{
     margin: 0 55px;
   }
@@ -191,17 +198,6 @@ header .shortcut > div:hover{
 
 @media(max-width:765px){
 
-  header .mobile-bg{
-  display: block;
-}
-
-  header .tablet-bg{
-  display: none;
-}
-
-  .main-bg{
-    display: none;
-  }
 
   header{
     margin: 0 50px;
