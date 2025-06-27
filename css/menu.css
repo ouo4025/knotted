@@ -112,16 +112,16 @@
 @media(max-width:1024px){
 
   .menu-title{
-  margin: 220px 0 173px 0;
+  margin: 110px 0 210px 0;
 }
 
   .menu-category{
-  padding: 24px 127px;
-  gap: 75px;
-  width: 767px;
-  height: 70px;
-  border-radius: 27.15px 27.15px 0 0;
-}
+    padding: 24px 128px;
+    gap: 75px;
+    width: 767px;
+    height: 70px;
+    border-radius: 27.15px 27.15px 0 0;
+  }
 
 .menu-category li a{
   font-size: 18.34px;
@@ -131,7 +131,7 @@
 @media(max-width:765px){
 
   .menu-title{
-  margin: 220px 0 188px 0;
+  margin: 110px 0 215px 0;
 }
 
   .menu-category{

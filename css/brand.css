@@ -7,6 +7,9 @@
   --main-brown: #AB8A50;
 }
 
+main{
+  overflow: hidden;
+}
 
 
 /*bg*/

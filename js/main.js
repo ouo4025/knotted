@@ -5,9 +5,14 @@ $(document).ready(function(){
   //서브메뉴
   $("header .depth2").hide();
 
-  $("header .gnb > li").hover(function(){
-    $(this).find(".depth2").stop().slideToggle();
+  $("header .gnb > li").mouseenter(function(){
+    $(this).find(".depth2").stop().slideDown();
   });
+
+  $("header .gnb > li").mouseleave(function(){
+    $(this).find(".depth2").stop().slideUp();
+  });
+
 
 
 
@@ -167,15 +172,21 @@ $(document).ready(function(){
     });
   
 
-    //스크롤고정
-    $(window).on('scroll', function () {
-  if ($(this).scrollTop() > 50) {
-    $('header nav').addClass('fixed-nav');
+    //헤더 고정
+ $(window).on('scroll resize', function () {
+  const winWidth = $(window).width();
+  const scrollTop = $(this).scrollTop();
+
+  if (winWidth > 1024) {
+    if (scrollTop > 50) {
+      $('header nav').addClass('fixed-nav');
+    } else {
+      $('header nav').removeClass('fixed-nav');
+    }
   } else {
-    $('header nav').removeClass('fixed-nav');
+    $('header nav').removeClass('fixed-nav'); // 모바일에선 항상 고정 해제
   }
 });
-
 
 
 
