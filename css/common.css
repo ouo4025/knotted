@@ -475,11 +475,11 @@ footer .f-right{
 
 .product-detail{
   position: fixed;
-  top: 5%;
+  top: 12%;
   left: 50%;
   transform: translateX(-50%);
   width: 448px;
-  height: 875px;
+  height: 800px;
   background-color: #FFEE9E;
   border-radius: 35.8px;
   z-index: 999;
@@ -539,7 +539,7 @@ footer .f-right{
 .product-detail .product-txt{
   width: 100%;
   background-color: #fff;
-  padding: 55px 35px 120px 35px;
+  padding: 25px 35px 120px 35px;
   font-size: 17.18px;
 }
 
